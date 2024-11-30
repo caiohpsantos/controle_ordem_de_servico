@@ -1,6 +1,6 @@
 @echo off
 REM Caminho para o ambiente virtual
-cd /d "C:\diario_de_obra\"
+cd /d "C:\Users\Caio\Documents\controle_ordem_de_servico"
 
 REM Ativa o ambiente virtual
 call venv\Scripts\activate

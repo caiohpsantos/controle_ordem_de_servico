@@ -8,3 +8,4 @@ pyperclip
 plotly
 pdfminer.six
 fpdf2
+matplotlib

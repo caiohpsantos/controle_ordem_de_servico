@@ -6,7 +6,9 @@ from streamlit_option_menu import option_menu
 from forms import cliente, nova_os, editar_os, dados_os, fechamento, configuracoes, faturamento
 from services.database import cria_tabelas
 
-st.set_page_config(layout="wide")
+st.set_page_config(layout="wide", page_title="Gerenciamento O.S.", menu_items={"Get help":"mailto:caiohpsantos@gmail.com",
+                                                                            "Report a bug": "https://forms.gle/44wLD4xNr4qzdmGq6",
+                                                                            "About":"Sistema para gerenciamento de ordens de serviço."})
 
 st.header("Sistema de Gerenciamento de Ordem de Serviço - O.S.")
 
@@ -25,7 +27,8 @@ authenticator = stauth.Authenticate(
 )
 
 if not st.session_state['authentication_status']:
-    authenticator.login()
+    authenticator.login(fields = {'Form name':'Login', 'Username':'Usuário', 'Password':'Senha',
+                      'Login':'Logar', 'Captcha':'Captcha'})
 
 
 if st.session_state['authentication_status']:
@@ -135,3 +138,9 @@ if st.session_state['authentication_status']:
 
                 case 'Pastas de Arquivos':
                     configuracoes.pastas_de_midias()
+
+elif st.session_state['authentication_status'] is False:
+    st.error('Usuário ou senha incorretos')
+
+elif st.session_state['authentication_status'] is None:
+    st.warning('Digite seu usuário e senha para entrar')
