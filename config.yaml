@@ -1,0 +1,35 @@
+cookie:
+  expiry_days: 1
+  key: 4HqIXo-HZaqfaiVBzBoCDGrE2ggTzSHrCnJXn_dbLlw
+  name: machado&santos_courier
+credentials:
+  usernames:
+    caio.santos:
+      email: caiohpsantos@gmail.com
+      failed_login_attempts: 0
+      logged_in: false
+      name: Caio Henrique
+      password: $2b$12$4HI5wv41C0L8KEdr/p5I1.sfnTTa8REOC3Js3SddvElAYz3bxWXhC
+    tomaz.machado:
+      email: tomazmachado@outlook.com
+      failed_login_attempts: 0
+      logged_in: false
+      name: Tomaz Machado
+      password: $2b$12$9XcNe/cazs6RGaP5gStNZutHKU6LpWk85Vsiziqgsq.7vpPQr.Sku
+dados_email:
+  email: machadoesantoscourier@gmail.com
+  senha: unhn epwv uvnu zfby
+  servidor: smtp.gmail.com
+dados_empresariais:
+  cnpj: 11.485.672/0001-50
+  email: tomazmachado@oulook.com
+  endereco: RUA 07, SN, QD E, LT 03, SALA 01, SETOR BELA VISTA, NEROPOLIS - GO, CEP
+    75.460-000
+  inscricao_estadual: null
+  nome_fantasia: GYN DOURIER
+  razao_social: MACHADO E SANTOS COURIER LTDA
+  telefone_celular: (62) 98519-9964
+  telefone_fixo: (62) 3202-8252
+pastas_midias:
+  midias_os: G:\Meu Drive\midias_os
+  notas_fiscais: G:\Meu Drive\notas_fiscais

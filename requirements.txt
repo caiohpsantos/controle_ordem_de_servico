@@ -1,0 +1,10 @@
+mysql-connector-python
+streamlit
+streamlit-authenticator==0.3.3
+streamlit-option-menu
+streamlit-pdf-viewer
+PyYAML
+pyperclip
+plotly
+pdfminer.six
+fpdf2
